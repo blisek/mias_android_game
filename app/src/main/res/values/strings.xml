@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MainActivity</string>
+    <string name="main_start_game">Start game</string>
+    <string name="main_resume">Resume</string>
+    <string name="main_scores">Scores</string>
+    <string name="main_exit">Exit</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_high_scores">Highscores</string>
+    <string name="title_activity_score">Game over</string>
+    <string name="score_congrats">Gratulacje!</string>
+    <string name="score_message">Zdobyłeś %d punktów.</string>
+    <string name="score_save_btn">Ok</string>
+    <string name="score_player_name">Imię gracza</string>
+
+</resources>

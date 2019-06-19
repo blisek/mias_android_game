@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <Button android:id="@+id/main_start_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_start_game"
+        android:onClick="startGame"
+        />
+    
+    <Button android:id="@+id/main_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_scores"
+        android:onClick="showHighscores"
+        />
+    
+    <Button android:id="@+id/main_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_exit"
+        android:onClick="endGame"
+        />
+    
+</LinearLayout>
+

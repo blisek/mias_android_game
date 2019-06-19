@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/score_congrats" />
+    
+    <TextView
+        android:id="@+id/score_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_message" />
+    
+    <EditText
+        android:id="@+id/score_player_name"
+        android:hint="@string/score_player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="15dp"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_save_btn"
+        android:onClick="saveBtnClick"/>
+    
+</LinearLayout>
